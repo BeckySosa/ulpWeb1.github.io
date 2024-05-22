@@ -3,7 +3,7 @@ body{
     padding: 0;
 }
 #div_encabezado{
-    background-image: url("../imagenes/img_encav.jpg");
+    background-image: url("imagenes/img_encav.jpg");
     background-size: cover;
     height: 100px;
     display: flex;
