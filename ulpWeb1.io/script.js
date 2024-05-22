@@ -31,3 +31,31 @@ function cargarImagenes() {
         carruselImg.appendChild(img);
     }
 }
+function imagenAnterior() {
+    if (index >= 4) {
+        index -= 4;
+        cargarImagenes();
+    }
+}
+
+function imagenSiguiente() {
+    if (index + 4 < imagenes.length) {
+        index += 4;
+        cargarImagenes();
+    }else{
+        index = 0;
+        cargarImagenes();
+    }
+}
+
+cargarImagenes();
+
+function avanzaAuto(){
+    setInterval( function(){
+        imagenSiguiente();
+    }, 4000 )
+}
+
+
+
+avanzaAuto();
