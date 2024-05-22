@@ -29,3 +29,73 @@ body{
     margin-left: 10px;
 
 }
+#botones_redes button:hover{
+    color: #ddd;
+}
+body{
+    background-image: url(../beckysosa.github.io/imagenes/fondo.jpg);
+    background-size: cover;
+    min-height: 100vh;
+
+}
+
+
+#carrusel button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2; 
+    background: rgba(255, 255, 255, 0.5);
+    border: #ff8000;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#anteriorButton {
+    left: 10px; 
+}
+
+#siguienteButton {
+    right: 10px; 
+}
+
+#carrusel {
+    position: relative;
+    width: 100%; 
+    overflow-x: hidden;
+    height: 200px;
+}
+#carrusel_Imagenes {
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+#contenedor-imagenes {
+    display: flex; 
+    flex-wrap: wrap; 
+    
+}
+
+#carrusel img {
+    width: calc(25% - 2px);
+    height: 200px; 
+    object-fit: cover; 
+    margin: 1px;
+   
+     
+}
+#institucional{
+    width: 50%;
+    height: 250px;
+    background-color: lightcoral;
+   /* background-image: url("..imagenes/ANGELITO_RECORTADO_PAINT.png");*/
+    float: left;
+}
+
+#memes{
+    width: 50%;
+    height: 250px;
+    background-color: lightblue;
+    /*background-image: url("..imagenes/DIABLITO_RECORTADO_PAINT.png");*/
+    float: right;
+}
