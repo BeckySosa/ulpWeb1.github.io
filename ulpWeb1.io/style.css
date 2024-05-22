@@ -33,7 +33,7 @@ body{
     color: #ddd;
 }
 body{
-    background-image: url(../beckysosa.github.io/imagenes/fondo.jpg);
+    background-image: url("imagenes/fondo.jpg");
     background-size: cover;
     min-height: 100vh;
 
@@ -64,11 +64,14 @@ body{
     width: 100%; 
     overflow-x: hidden;
     height: 200px;
+    margin-top: 20px;
 }
 #carrusel_Imagenes {
     position: relative;
     width: 100%;
     display: flex;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 #contenedor-imagenes {
     display: flex; 
@@ -81,21 +84,57 @@ body{
     height: 200px; 
     object-fit: cover; 
     margin: 1px;
-   
-     
+    border-radius: 8px;    
+}
+#div_contenedor{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+#institucional, #memes{
+    width: 244px;
+    height: 251px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
 }
 #institucional{
-    width: 50%;
-    height: 250px;
-    background-color: lightcoral;
-   /* background-image: url("..imagenes/ANGELITO_RECORTADO_PAINT.png");*/
-    float: left;
+    background-image: url("imagenes/ANGELITO.jpg");
+    margin-right: 50px;
+   
 }
 
 #memes{
-    width: 50%;
-    height: 250px;
-    background-color: lightblue;
-    /*background-image: url("..imagenes/DIABLITO_RECORTADO_PAINT.png");*/
-    float: right;
+    background-image: url("imagenes/DIABLITO.jpg");
+}
+#footer{
+    background-image: url("imagenes/img_footer.jpg");
+    background-size: cover;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    margin-top: 15px;
+
+}
+.contenedor_imagen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+#linkinstitu, #linkmemes{
+    width: 244px;
+    height: 251px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+#linkinstitu {
+    background-color: #6C5B7B;
+}
+#linkmemes {
+    background-color: #355C7D;
 }
