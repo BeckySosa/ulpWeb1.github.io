@@ -31,6 +31,8 @@ function cargarImagenes() {
         carruselImg.appendChild(img);
     }
 }
+avanzaAuto();
+
 function imagenAnterior() {
     if (index >= 4) {
         index -= 4;
