@@ -107,17 +107,7 @@ body{
 #memes{
     background-image: url("imagenes/DIABLITO.jpg");
 }
-#footer{
-    background-image: url("imagenes/img_footer.jpg");
-    background-size: cover;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 8px;
-    margin-top: 15px;
 
-}
 .contenedor_imagen {
     display: flex;
     flex-direction: column;
@@ -134,7 +124,123 @@ body{
 }
 #linkinstitu {
     background-color: #6C5B7B;
+
 }
 #linkmemes {
     background-color: #355C7D;
 }
+#div_link1{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(141, 18, 18);
+    border-radius: 8px;
+    width: 80%;
+    height: 15%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#linkinstitu a {
+    color: gold;
+    text-decoration: none;
+    align-items: center;
+    margin: auto;
+
+}
+#linkinstitu a:hover{
+    text-decoration: underline;
+}
+
+
+#div_link2 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(141, 18, 18); 
+    border-radius: 8px;
+    width: 80%;
+    height: 15%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+#linkmemes a {
+    color: gold;
+    text-decoration: none;
+    align-items: center;
+    margin: auto;
+}
+
+#linkmemes a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+#linkinstitu ul,
+#linkmemes ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 8px; 
+    margin-bottom: 8px; 
+}
+
+#linkinstitu ul li,
+#linkmemes ul li {
+    background-color: #ec6c30; 
+    border-radius: 4px; 
+    padding: 10px; 
+    margin-bottom: 5px; 
+    color: #333; 
+    font-size: 18px; 
+}
+
+#linkinstitu ul li:hover,
+#linkmemes ul li:hover {
+    text-decoration: underline; 
+}
+
+#footer{
+    background-image: url("imagenes/img_footer.jpg");
+    background-size: cover;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    margin-top: 15px;
+
+}
+
+#footer ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 8px; 
+    margin-bottom: 8px; 
+    position: relative;
+    z-index: 1;
+}
+
+#footer ul li {
+    background-color: #ec6c30; 
+    border-radius: 4px; 
+    padding: 10px; 
+    margin-bottom: 5px; 
+    color: #333; 
+    font-size: 18px; 
+}
+
+#footer ul li:hover {
+    text-decoration: underline; 
+}
+
+#footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px; 
+}
+
+
+
