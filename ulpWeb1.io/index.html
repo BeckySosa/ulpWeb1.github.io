@@ -14,7 +14,17 @@
         
         <h1>ProgramaMemes</h1>
         <div id="botones_redes">
-            <i class="fab fa-instagram"></i> <i class="fab fa-facebook"></i> <i class="fab fa-twitter"></i> <i class="fab fa-youtube"></i>
+            <i class="fab fa-instagram"></i> 
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i> 
+            <i class="fab fa-youtube"></i>
+        </div>
+        <div id="DD" class="dropdown">
+            <button class="btndrop">Páginas</button>
+            <div class="drop_cont">
+                <a href="pagina2.html"> Institucional</a>
+                <a href="pagina3.html"> Memardos</a>
+            </div>
         </div>
     </div>
     <div id="carrusel">
@@ -57,15 +67,18 @@
     </div>
 
     <div id="footer">
+        <button id="boton_contacto">Contactanos</button>
+
         <div class="footer_columnas">
 
-        </div>
+        
         <ul class="footer_listas"> 
             <li>¿Quiénes somos?:</li>
             <li>Sosa Rebeca - Estudiante de la TUDS en la ULP</li>
             <li>Moya Gerardo - Estudiante de la TUDS en la ULP</li>
             
         </ul>
+     </div>
         <div class="footer_columnas">
             <ul class="footer_listas">
                 <li>Información ULP:</li>
@@ -80,10 +93,41 @@
             <ul class="footer_listas">
                 <li>Razones</li>
                 <li>No hay por qué</li>
-                <li>En realidad si lo hay</li>
+                <li>En realidad, si lo hay:</li>
                 <li>Queremos aprobar Web 1</li>
             </ul>
     
+        </div>
+
+
+
+        <div id="vnt" class="vnt_emerg">
+            <div class="contenido_emerg">
+            <span class="btn_cerrar">&times;</span>
+            <h2>Ingresá tus datos y te enviaremos mas info!</h2>
+            <form id="frm_contacto" novalidate>
+                <div class="campo">
+                    <label for="nombre">Nombre: </label>
+                    <input type="text" id="nombre" name="nombre" required maxlength="30">
+                </div>
+                <div class="campo">
+                    <label for="apellido">Apellido: </label>
+                    <input type="text" name="apellido" id="apellido" required maxlength="30">
+                </div>
+                <div class="campo">
+                    <label for="telefono">Telefono: </label>
+                    <input type="tel" name="telefono" id="telefono" required maxlength="10" pattern="[0-9]+">
+                </div>    
+                <div class="campo">
+                    <label for="correo">Correo: </label>
+                    <input type="email" name="email" id="email" required maxlength="60">
+                </div>    
+                <button type="submit">ENVIAR</button>
+    
+            </form>
+            
+            <div id="respuesta"></div>
+        </div>
         </div>
         
     </div>

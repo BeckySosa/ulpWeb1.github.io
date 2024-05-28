@@ -1,10 +1,21 @@
 body{
-background-image: url("imagenesP2/fondo.jpg");
-background-size: cover;
-height: 100px;
+    margin: 0;
+    padding: 0;
+}
+#div_encabezado{
+    background-image: url("imagenes/img_encav.jpg");
+    background-size: cover;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 8px;
     padding-left: 50px;
 }
+#div_encabezado h1 {
+    width: 80%;
+    height: 20%;
+    text-align: left;
+    color: #00ff;
+    font-size: 2em;
+    padding-left: 0%;
