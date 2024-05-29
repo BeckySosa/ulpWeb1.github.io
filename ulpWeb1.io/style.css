@@ -31,8 +31,8 @@ body{
     margin-left: 10px;
 
 }
-#botones_redes button:hover{
-    color: #ddd;
+#botones_redes i:hover{
+    color: yellow;
 }
 
 .dropdown{
@@ -49,7 +49,7 @@ body{
     cursor: pointer;
 }
 .btndrop:hover{
-    color: #ddd;
+    color: yellow;
 
 }
 
