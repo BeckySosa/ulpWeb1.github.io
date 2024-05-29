@@ -64,3 +64,16 @@ document.addEventListener("DOMContentLoaded", function () {
     });
     
 });
+
+document.addEventListener("DOMContentLoaded", function(){
+    var btn_mg = document.getElementById("btn_mg");
+    var cont_mg = document.getElementById("cont_mg");
+    var contador = 0;
+
+    btn_mg.addEventListener("click", function() {
+        contador++;
+        cont_mg.textContent = contador;
+        
+    });
+});
+
