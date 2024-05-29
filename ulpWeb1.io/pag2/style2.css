@@ -1,10 +1,11 @@
 body{
     margin: 0;
     padding: 0;
-
+background-image:url("imagenesP2/fuego.jpg");
+position:absolute;
 }
 #div_encabezado{
-    background-image: url("imagenes/img_encav.jpg");
+    background-image: url("imagenesP2/img_encav.jpg");
     background-size: cover;
     height: 100px;
     display: flex;
@@ -20,3 +21,38 @@ body{
     color: #00ff;
     font-size: 2em;
     padding-left: 0%;
+}
+.modulo1{
+    display: flexbox;
+   flex-direction:row;
+
+}
+#comentario1,#comentario2,#comentario3,#comentario4{
+    background-color: whitesmoke;
+    color:black;
+    text-align: center;
+    width: 28%;
+    height: auto;
+    border-radius: 5%;
+    flex-direction: row;
+    position:relative;
+}
+#img{
+    width: 28%;
+    height: auto;
+    border-radius: 5%;
+    flex-direction: column;
+    display:flex;
+}
+.modulo2{
+    display: flexbox;  
+flex-direction:colum;
+}
+.modulo3{
+    
+display: flexbox;
+}
+.modulo4{
+   flex-direction: column;
+
+}
