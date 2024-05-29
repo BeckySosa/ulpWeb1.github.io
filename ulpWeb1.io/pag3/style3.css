@@ -17,17 +17,27 @@ body{
 
 
 
-#div_encabezado{
+#div_encabezado,h1{
     background-color:rgb(252, 11, 11);
     color:white;
-    h1{ 
-        color:white
-        text-align: left;
-    }
     
     
 }
-nav {
+.contenedorPrincipal{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.modulo2 {
+    width: calc(50% - 60px);
+    border: 1px solid #327932;
+    padding: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin: 5px;
+}
+/*nav {
     h1{
     color:black;
     text-align: left;
@@ -46,6 +56,7 @@ nav {
     
     
  }
+ */
 #footer {
     background-color:rgb(252, 11, 11);
     padding: 10px;
@@ -54,6 +65,7 @@ nav {
      margin-top:auto;
      
   }
+ 
   /* hay que ver que hacemos con el footer y el form no pude darle solo stylo al footer y verlo en form tambien por eso los separe*/
   form{
     background-color: rgb(252, 11, 11);
