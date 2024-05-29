@@ -66,14 +66,33 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 document.addEventListener("DOMContentLoaded", function(){
-    var btn_mg = document.getElementById("btn_mg");
-    var cont_mg = document.getElementById("cont_mg");
-    var contador = 0;
 
-    btn_mg.addEventListener("click", function() {
-        contador++;
-        cont_mg.textContent = contador;
+    var btn_mg = document.querySelectorAll("#btn_mg");
+    var cont_mg = document.querySelectorAll("#cont_mg");
+    
+    btn_mg.forEach(function(btn, index){
+        btn.addEventListener("click", function(){
+        var contador = cont_mg[index];
+        contador.textContent = parseInt(contador.textContent)+1;    
+
         
     });
 });
-
+});
+document.addEventListener("DOMContentLoaded", function(){
+    var btn_comentar = document.querySelectorAll(".comentario .btn_comentar");
+    
+    btn_comentar.forEach(function(btn, index){
+        btn.addEventListener("click", function(){
+            var input_comentario = btn.previousElementSibling;
+            var texto_comentario = input_comentario.value.trim();
+            if (texto_comentario !== "") {
+                var lista_comentarios = btn.parentElement.querySelector(".lista_comentarios");
+                var nuevo_comentario = document.createElement("li");
+                nuevo_comentario.textContent = texto_comentario;
+                lista_comentarios.appendChild(nuevo_comentario);
+                input_comentario.value = "";
+            }
+        });
+    });
+});
