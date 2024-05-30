@@ -80,11 +80,11 @@ document.addEventListener("DOMContentLoaded", function(){
 });
 });
 document.addEventListener("DOMContentLoaded", function(){
-    var btn_comentar = document.querySelectorAll(".comentario .btn_comentar");
+    var btn_comentar = document.querySelectorAll(".comentario button.btn_comentar");
     
-    btn_comentar.forEach(function(btn, index){
-        btn.addEventListener("click", function(){
-            var input_comentario = btn.previousElementSibling;
+    btn_comentar.forEach(function(btn_comentar, index){
+        btn_comentar.addEventListener("click", function(){
+            var input_comentario = btn_comentar.previousElementSibling;
             var texto_comentario = input_comentario.value.trim();
             if (texto_comentario !== "") {
                 var lista_comentarios = btn.parentElement.querySelector(".lista_comentarios");
