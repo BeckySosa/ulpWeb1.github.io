@@ -91,6 +91,13 @@ th {
 .moduloLista {
     font-family: 'Times New Roman', Times, serif;
 font-size: larger;
+text-align: center;
+}
+.img{
+ border-radius: 30%;
+ width: 60%;
+ height: 60%;
+
 }
 
 #footer {
