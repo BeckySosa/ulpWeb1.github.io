@@ -18,8 +18,8 @@ body{
     width: 80%;
     height: 20%;
     text-align: left;
-    color: #00ff;
-    font-size: 2em;
+    color: rgb(255, 230, 0);
+    font-size:50px;
     padding-left: 0%;
 }
 #botones_redes{
@@ -45,7 +45,7 @@ body{
     background-color: transparent;
     border: none;
     color: aqua;
-    font-size: 18px;
+    font-size: 25px;
     cursor: pointer;
 }
 .btndrop:hover{
@@ -80,8 +80,8 @@ body{
     display: block;
 }
 body{
-    background-image: url("imagenes/fondo.jpg");
-    background-size: cover;
+    background-image: url("imagenes/fondoCodigo.jpeg");
+    background-size:contain;
     min-height: 100vh;
 
 }
@@ -170,16 +170,16 @@ body{
     margin-top: 20px;
 }
 #linkinstitu {
-    background-color: #6C5B7B;
+    background-color:orange;
 
 }
 #linkmemes {
-    background-color: #355C7D;
+    background-color:red;
 }
 #div_link1{
     display: flex;
     justify-content: center;
-    background-color: rgb(141, 18, 18);
+    background-color:yellow;
     border-radius: 8px;
     width: 80%;
     height: 15%;
@@ -188,7 +188,7 @@ body{
     margin-right: auto;
 }
 #linkinstitu a {
-    color: gold;
+    color: red;
     text-decoration: none;
     align-items: center;
     margin: auto;
@@ -196,13 +196,14 @@ body{
 }
 #linkinstitu a:hover{
     text-decoration: underline;
+   
 }
 
 
 #div_link2 {
     display: flex;
     justify-content: center;
-    background-color: rgb(141, 18, 18); 
+    background-color:yellow; 
     border-radius: 8px;
     width: 80%;
     height: 15%;
@@ -213,7 +214,7 @@ body{
 }
 
 #linkmemes a {
-    color: gold;
+    color: black;
     text-decoration: none;
     align-items: center;
     margin: auto;
@@ -236,11 +237,11 @@ body{
 
 #linkinstitu ul li,
 #linkmemes ul li {
-    background-color: #ec6c30; 
+    background-color: yellow; 
     border-radius: 4px; 
     padding: 10px; 
     margin-bottom: 5px; 
-    color: #333; 
+ 
     font-size: 18px; 
 }
 

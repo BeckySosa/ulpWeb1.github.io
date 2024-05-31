@@ -60,7 +60,7 @@ th {
 
 .modulo2 {
     width: calc(50% - 60px);
-    border: 1px solid #327932;
+    
     padding: 10px;
     box-sizing: width;
     display: inline-block;
