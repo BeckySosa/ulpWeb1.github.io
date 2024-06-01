@@ -16,6 +16,10 @@
         <div class="titulo">
             <h1>Informacion Institucional</h1>
         </div>
+        <nav>
+            <a href="../pag2/index2.html">Memardos</a>
+            <a href="../index.html">Principal</a>
+        </nav>
         <div id="botones_redes">
             <i class="fab fa-instagram"></i> <i class="fab fa-facebook"></i> <i class="fab fa-twitter"></i> <i
                 class="fab fa-youtube"></i>
@@ -201,7 +205,7 @@
         </div>
         <div id="footer">
             <h1>Registrate para recibir contenido!!</h1>
-            <form new class="form">
+            <form id="idform" class="formulario" novalidate>
                 <fieldset>
                     <legend>Aqui:</legend>
                     <label for="nombre">Nombre:</label><br>
@@ -210,16 +214,17 @@
                     <input type="text" id="correo" name="correo"><br>
                     <label for="comentario"> Comenta:</label><br>
                     <input type="text" id="comentario" name="comentario"><br>
-                    <label for="proposito">Proposito de la vida:<br></label><br>
-                    <label for="proposito"> esforzarse y reir</label><br>
-                    <input type="checkbox" id="proposito" name="proposito"><br>
-                    <label for="proposito"> reir y esforzarse:</label><br>
-                    <input type="checkbox" id="proposito" name="proposito"><br>
+                    <label for="proposito1"> esforzarse y reir</label><br>
+                    <input type="checkbox" id="proposito1" name="proposito" value="esforzarse y reir"><br>
+                    <label for="proposito2"> reir y esforzarse:</label><br>
+                    <input type="checkbox" id="proposito2" name="proposito" value="reir y esforzarse"><br>
 
                     <input type="submit" value="Hazlo">
                 </fieldset>
             </form>
+            <div id="datosIngresados"></div>
         </div>
 
     </div>
+    <script src="script3.js" defer></script>
 </body>

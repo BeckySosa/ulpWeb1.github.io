@@ -32,6 +32,27 @@ h1 {
 .titulo h1:hover{
 color:blue;
 }
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    margin: 0 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #8da3bb; 
+    transition: background-color 0.3s ease; 
+}
+
+nav a:hover {
+    background-color: #0056b3;
+}
 
 
 .contenedorPrincipal {
